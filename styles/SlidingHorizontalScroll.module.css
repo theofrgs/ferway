@@ -1,0 +1,167 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scrollContainer {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  padding: 10px;
+  /* Adjust the padding as needed */
+}
+
+.title {
+  margin: 0 1 1rem;
+  line-height: 1.15;
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+.topItemBar {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  padding-left: 10px;
+  width: 400px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #EBECF0;
+}
+
+.createList {
+  padding-left: 10px;
+  width: 400px;
+  height: 75px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #ebecf03f;
+}
+
+.createList:hover {
+  background-color: rgba(255, 255, 255, 0.448);
+  cursor: pointer;
+}
+
+
+.treeButton {
+  border: none;
+  padding: 10px;
+  background: none;
+  cursor: pointer;
+}
+
+.treeButton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.crossButton {
+    margin-left: 0rem;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    /* Adjusted padding */
+    font-size: 1.1rem;
+    /* Increased font size */
+    color: rgb(97, 96, 96);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+  padding-left: 10px;
+  /* width: 100; */
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.cardAdd {
+  padding-left: 10px;
+  /* width: 100; */
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgba(73, 67, 67, 0);
+}
+
+.cardAdd:hover {
+  background-color: rgb(195, 195, 195);
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: rgb(195, 195, 195);
+  cursor: pointer;
+}
+
+
+.scrollButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /* Adjust the margin as needed */
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff00;
+  box: none;
+  outline: none;
+  font-size: large;
+}
+
+.cardCreate {
+  padding-left: 10px;
+  /* width: 100; */
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white;
+  min-height: 100px;
+}
+
+.cardCreate:hover {
+  cursor: pointer;
+}
+
+.button {
+    margin-left: 0rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Adjusted padding */
+    font-size: 1.1rem;
+    /* Increased font size */
+    background-color: #59AC44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #75e558;
+}
